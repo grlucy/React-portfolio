@@ -1,0 +1,11 @@
+.mainContentDiv {
+  min-height: calc(100vh - 65px);
+}
+
+body {
+  background-color: #eee;
+}
+
+nav {
+  background-color: #0c36aa;
+}
