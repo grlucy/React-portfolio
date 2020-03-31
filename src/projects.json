@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Friendango",
+    "staticImg": "./assets/images/demos/Friendango-static.gif",
+    "demoGif": "./assets/images/demos/Friendango-demo.gif",
+    "imgAlt": "Friendango Demo",
+    "demoURL": "https://friendango.herokuapp.com/",
+    "repoURL": "https://github.com/grlucy/Friendango",
+    "description": "A social network for movie reviews that enables a user to submit their own reviews and view data about the reviews submitted either by all users or by only the users they follow.",
+    "technologies": "Node.js, Express, Handlebars, MySQL, Sequelize, JavaScript, jQuery, Heroku, JawsDB, OMDB API, HTML, CSS, Bootstrap, Chart.js, ESLint, Dotenv, Passport"
+  }
+]

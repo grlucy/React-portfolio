@@ -1,0 +1,19 @@
+.projectLink {
+  cursor: pointer;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
+
+.staticGif {
+  position: absolute;
+}
+
+.staticGif:hover {
+  opacity: 0;
+}
+
+.card-body {
+  padding: 0.5rem;
+}
