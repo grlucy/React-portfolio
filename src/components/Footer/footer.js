@@ -3,17 +3,17 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <>
-      <footer className="bg-secondary d-flex align-items-center justify-content-center">
-        <div className="container">
-          <div className="row">
-            <div className="col text-white text-center">
-              <p className="m-0">ExoGeni Corporation</p>
-            </div>
+    <footer>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12 text-white text-center text-md-left">
+            <p className="footerPara mb-0 d-flex align-items-center justify-content-center justify-content-md-start">
+              &copy; Gina Lucy 2020
+            </p>
           </div>
         </div>
-      </footer>
-    </>
+      </div>
+    </footer>
   );
 }
 

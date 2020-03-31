@@ -1,3 +1,10 @@
 footer {
-  height: 65px;
+  background-color: #0c36aa;
+  height: 50px;
+}
+
+.footerPara {
+  min-height: 50px;
+  opacity: 0.75;
+  font-size: 14px;
 }

@@ -6,10 +6,10 @@ function Navbar() {
   const location = useLocation();
 
   return (
-    <nav class="navbar navbar-expand-md navbar-dark" id="stickyNav">
-      <div class="container d-flex justify-content-between">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
+    <nav className="navbar navbar-expand-md navbar-dark" id="stickyNav">
+      <div className="container d-flex justify-content-between">
+        <ul className="navbar-nav mr-auto">
+          <li className="nav-item">
             <Link
               to="/"
               className={
@@ -19,22 +19,22 @@ function Navbar() {
               About
             </Link>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <a
-              class="nav-link"
+              className="nav-link"
               href="./assets/resume/GinaLucyResume.pdf"
               target="_blank"
             >
               Resume
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">
+          <li className="nav-item">
+            <a className="nav-link" href="#projects">
               Projects
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">
+          <li className="nav-item">
+            <a className="nav-link" href="#contact">
               Contact
             </a>
           </li>
