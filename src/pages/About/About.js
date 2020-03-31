@@ -37,25 +37,26 @@ function About() {
             </p>
             <h4 className="text-justify">Technical Skills:</h4>
             <p className="text-left">
-              <span className="font-weight-bold">Languages:</span> JavaScript,
-              HTML, CSS, SQL
+              <span className="font-weight-bold">Languages:</span>
+              &nbsp;JavaScript, HTML, CSS, SQL
               <br />
               <span className="font-weight-bold">JavaScript Libraries:</span>
-              React, jQuery, Chart.js, Moment.js
+              &nbsp;React, jQuery, Chart.js, Moment.js
               <br />
               <span className="font-weight-bold">
                 CSS Preprocessors & Frameworks:
               </span>
-              Sass, Bootstrap, Materialize
+              &nbsp;Sass, Bootstrap, Materialize
               <br />
               <span className="font-weight-bold">Databases:</span>
-              MongoDB, MySQL, IndexedDB
+              &nbsp;MongoDB, MySQL, IndexedDB
               <br />
               <span className="font-weight-bold">Server-Side Development:</span>
-              Node.js, Express, Handlebars, Mongoose, Sequelize, Passport.js
+              &nbsp;Node.js, Express, Handlebars, Mongoose, Sequelize,
+              Passport.js
               <br />
               <span className="font-weight-bold">Deployment:</span>
-              Git, GitHub, Heroku, JawsDB
+              &nbsp;Git, GitHub, Heroku, JawsDB, mLab
               <br />
             </p>
             <div className="d-inline-block mt-3">
