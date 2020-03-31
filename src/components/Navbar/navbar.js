@@ -29,9 +29,16 @@ function Navbar() {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#projects">
+            <Link
+              to="/projects"
+              className={
+                location.pathname === "/projects"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
               Projects
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
             <Link
