@@ -7,8 +7,8 @@ function Navbar() {
 
   return (
     <nav className="navbar navbar-expand-md navbar-dark" id="stickyNav">
-      <div className="container d-flex justify-content-between">
-        <ul className="navbar-nav mr-auto">
+      <div className="container">
+        <ul className="navbar-nav mx-auto ml-md-0 mr-md-auto text-center">
           <li className="nav-item">
             <Link
               to="/"

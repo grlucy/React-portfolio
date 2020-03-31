@@ -10,6 +10,12 @@ section {
   color: #0c36aa;
 }
 
+@media only screen and (max-width: 767px) {
+  .sectionTitle {
+    right: 0;
+  }
+}
+
 .headshot {
   width: 100%;
   max-width: 250px;
