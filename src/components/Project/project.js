@@ -3,7 +3,10 @@ import React from "react";
 function Project(props) {
   return (
     <div className="col-md-4">
-      <div className="projectLink" onClick={props.onClick(props.projectObj)}>
+      <div
+        className="projectLink"
+        onClick={() => props.onClick([props.projectObj])}
+      >
         <div className="card">
           <img
             className="card-img-top staticGif"
