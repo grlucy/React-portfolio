@@ -4,7 +4,7 @@ function Project(props) {
   return (
     <div className="col-md-4">
       <div
-        className="projectLink"
+        className="projectLink mb-4"
         onClick={() => props.onClick([props.projectObj])}
       >
         <div className="card">

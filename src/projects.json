@@ -8,5 +8,55 @@
     "repoURL": "https://github.com/grlucy/Friendango",
     "description": "A social network for movie reviews that enables a user to submit their own reviews and view data about the reviews submitted either by all users or by only the users they follow.",
     "technologies": "Node.js, Express, Handlebars, MySQL, Sequelize, JavaScript, jQuery, Heroku, JawsDB, OMDB API, HTML, CSS, Bootstrap, Chart.js, ESLint, Dotenv, Passport"
+  },
+  {
+    "name": "PetSpiration",
+    "staticImg": "./assets/images/demos/PetSpiration-static.gif",
+    "demoGif": "./assets/images/demos/PetSpiration-demo.gif",
+    "imgAlt": "PetSpiration Demo",
+    "demoURL": "https://grlucy.github.io/pet-spiration/",
+    "repoURL": "https://github.com/grlucy/pet-spiration",
+    "description": "A responsive application that helps users decide what type of pet they want, matches users with available shelter animals, and then provides directions to the animal shelter.",
+    "technologies": "HTML, CSS, Bootstrap, JavaScript, jQuery, Hammer.js, Petfinder API, Google Maps API, Geolocation API"
+  },
+  {
+    "name": "Employee Directory",
+    "staticImg": "./assets/images/demos/Employee-Directory-static.gif",
+    "demoGif": "./assets/images/demos/Employee-Directory-demo.gif",
+    "imgAlt": "Employee Directory Demo",
+    "demoURL": "https://exogeni-directory.herokuapp.com/",
+    "repoURL": "https://github.com/grlucy/Employee-Directory",
+    "description": "A responsive, single-page React employee directory application that enables sorting and filtering employee data using React props, stateful and stateless components.",
+    "technologies": "React, JavaScript, CSS, Bootstrap"
+  },
+  {
+    "name": "Transaction Tracker",
+    "staticImg": "./assets/images/demos/Transaction-Tracker-static.gif",
+    "demoGif": "./assets/images/demos/Transaction-Tracker-Demo.gif",
+    "imgAlt": "Transaction Tracker Demo",
+    "demoURL": "https://transactiontracker.herokuapp.com/",
+    "repoURL": "https://github.com/grlucy/Transaction-Tracker",
+    "description": "An online/offline Progressive Web App that tracks account balance, withdrawals, and deposits. Data entered in offline mode is stored client-side in IndexedDB, then stored server-side in MongoDB once online again.",
+    "technologies": "Node.js, Express, MongoDB, Mongoose, IndexedDB, JavaScript, Chart.js, HTML, CSS, Bootstrap"
+  },
+  {
+    "name": "Burger Logger",
+    "staticImg": "./assets/images/demos/Burger-Logger-static.gif",
+    "demoGif": "./assets/images/demos/Burger-Logger-demo.gif",
+    "imgAlt": "Burger Logger Demo",
+    "demoURL": "https://burger-logger-2020.herokuapp.com/",
+    "repoURL": "https://github.com/grlucy/Burger-Logger",
+    "description": "A responsive, RESTful Node.js/Express app using MySQL as a database and Handlebars to serve HTML that enables users to read, create, update, and delete data about burgers.",
+    "technologies": "MySQL, Node.js, Express, Handlebars, JavaScript, jQuery, CSS, Bootstrap, HTML"
+  },
+  {
+    "name": "Weather Dashboard",
+    "staticImg": "./assets/images/demos/Weather-Dashboard-static.gif",
+    "demoGif": "./assets/images/demos/Weather-Dashboard-demo.gif",
+    "imgAlt": "Weather Dashboard Demo",
+    "demoURL": "https://grlucy.github.io/Weather-Dashboard/",
+    "repoURL": "https://github.com/grlucy/Weather-Dashboard",
+    "description": "A responsive weather dashboard that utilizes local storage, geolocation, and the OpenWeather API.",
+    "technologies": "HTML, CSS, Bootstrap, JavaScript, jQuery, Moment.js, OpenWeather API, Geolocation API"
   }
 ]
