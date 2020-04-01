@@ -14,7 +14,7 @@ function ProjectDetail({ value }) {
               className="demoGif mb-4 mb-md-0"
             />
           </div>
-          <div className="col-md-8">
+          <div className="col-md-8 text-center text-md-left">
             <h3>{value.name}</h3>
             <hr />
             <div className="mb-3 buttonLink">
