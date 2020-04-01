@@ -1,6 +1,6 @@
 # Professional Portfolio | React
 
-Deployed at XX
+Deployed at https://ginalucy.herokuapp.com
 
 ## Description
 
