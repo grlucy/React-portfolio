@@ -4,7 +4,7 @@ import "./projectDetail.css";
 
 function ProjectDetail({ value }) {
   return (
-    <section className="darkSection">
+    <section className="darkSection" id="project">
       <div className="container">
         <div className="row">
           <div className="col-md-4">

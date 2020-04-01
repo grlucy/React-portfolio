@@ -10,7 +10,11 @@ import "./Projects.css";
 function Projects() {
   const [showProject, setShowProject] = useState({
     showing: [ProjectsList[0]],
-    clickProject: showing => setShowProject({ ...showProject, showing })
+    clickProject: showing => {
+      setShowProject({ ...showProject, showing });
+      const top = document.getElementById("project").offsetTop;
+      window.scrollTo(0, top);
+    }
   });
 
   return (
