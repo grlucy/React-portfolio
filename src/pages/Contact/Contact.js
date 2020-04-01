@@ -5,30 +5,30 @@ import "./Contact.css";
 function Contact() {
   return (
     <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center text-md-left">
-            <h3 class="sectionTitle">#contact</h3>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12 text-center text-md-left">
+            <h3 className="sectionTitle">#contact</h3>
             <form
-              class="mt-4 text-left"
+              className="mt-4 text-left"
               action="https://formspree.io/mgeygzdq"
               method="POST"
             >
-              <div class="form-group">
-                <label for="contactName">Name:</label>
+              <div className="form-group">
+                <label htmlFor="contactName">Name:</label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   name="name"
                   id="contactName"
                   placeholder="Name"
                 />
               </div>
-              <div class="form-group">
-                <label for="contactEmail">Email:</label>
+              <div className="form-group">
+                <label htmlFor="contactEmail">Email:</label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   name="_replyto"
                   id="contactEmail"
                   placeholder="Email"
@@ -39,16 +39,16 @@ function Contact() {
                 name="_subject"
                 value="Message from ginalucy.com"
               />
-              <div class="form-group">
-                <label for="contactMessage">Message:</label>
+              <div className="form-group">
+                <label htmlFor="contactMessage">Message:</label>
                 <textarea
-                  class="form-control"
+                  className="form-control"
                   name="message"
                   id="contactMessage"
                   rows="5"
                 ></textarea>
               </div>
-              <button type="submit" class="contactBtn">
+              <button type="submit" className="contactBtn">
                 Send
               </button>
             </form>
