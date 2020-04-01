@@ -15,9 +15,23 @@ function ProjectDetail({ value }) {
             />
           </div>
           <div className="col-md-8">
-            <p>Name: {value.name}</p>
-            <p>imgAlt: {value.imgAlt}</p>
-            <p>demoURL: {value.demoURL}</p>
+            <h3>{value.name}</h3>
+            <hr />
+            <div className="mb-3 buttonLink">
+              <a href={value.demoURL} target="_blank" rel="noopener noreferrer">
+                <button type="button" className="codeBtn mr-1">
+                  Demo
+                </button>
+              </a>
+              <a href={value.repoURL} target="_blank" rel="noopener noreferrer">
+                <button type="button" className="contactBtn">
+                  Code
+                </button>
+              </a>
+            </div>
+            <p>{value.description}</p>
+            <p className="font-weight-bold">Technologies used:</p>
+            <p>{value.technologies}</p>
           </div>
         </div>
       </div>
